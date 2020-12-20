@@ -1,0 +1,8 @@
+#include <stdio.h>
+void main()
+{int sum=715;
+int*prtsum=&sum;
+printf("地址是%x\n",&sum);
+*prtsum=823;
+printf("结果是%d\n",sum);
+} 
